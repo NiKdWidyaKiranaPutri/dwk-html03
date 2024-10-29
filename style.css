@@ -1,0 +1,13 @@
+/* Add styles here */
+body{
+    background-image: url("images/nailong.jpg");
+
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0px;
+    background-color: white;
+    opacity: 50%;
+
+}
