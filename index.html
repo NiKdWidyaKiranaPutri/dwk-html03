@@ -3,21 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>cita-citakuu</title>
+  <title>hello world</title>
   <link href='/style.css' rel='stylesheet'>
 </head>
+
 <body>
+  <script src="main.js"></script>
   <nav class="navbar">
-  <ul>
-    <li>Home</li>
-    <li>Gallery</li>
-    <li>Contact</li>
+   <a href="index.html" class="navbarjudul">the nailong</a> 
+   <div class="navbarmenu">
+  <ul class="navbarmenulist">
+    <li><a href="index.html#home">Home</a></li>
+    <li><a href="index.html#gallery">Gallery</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
   </ul>
+</div>
+
 </nav>
 
-  <h1>aku nailongg</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <h1 id="txhello"> aku nailong</h1>
+  <button onclick="klik()" id="btn1">Press me</button>
+  <script >
+    function klik(){
+      alert("Contoh Script bahasa javaScript")
+    }
+  </script>
 </body>
 
 </html>

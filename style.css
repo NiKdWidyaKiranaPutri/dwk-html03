@@ -9,5 +9,50 @@ body{
     padding: 0px;
     background-color: white;
     opacity: 50%;
+}
+.navbarmenu{
+    text-align: right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 90px;
+    font-size: 30px;
 
 }
+.navbarmenulist >li >a{
+    text-decoration: none;
+    color: black;
+}
+.navbarmenulist >li >a:hover{
+    font-weight: bold;
+}
+.navbarjudul {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-size: 2em;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    text-shadow: 2px 2px 8px;
+}
+ #txhello{
+    font-size: 50px;
+    top: 100px;
+    left : 10%;
+    position:relative;
+ }
+ #btn1{
+    position: relative;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top: 70px;
+    left: 13%;
+ }
+ #btn1:hover{
+    color: brown;
+ }
